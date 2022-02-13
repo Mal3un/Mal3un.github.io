@@ -305,10 +305,10 @@ c. tổng quan tới chi tiết
   color: white;
   padding: 10px 12px;
   text-decoration: none;
+  border: 1px solid black;
 }
 .buy-ticket-match:hover {
-  background-color: #ccc;
-  color: rgb(233, 56, 56);
+  background-color: rgba(177, 175, 175, 0.5);
 }
 .match-image:hover {
   opacity: 1;
@@ -476,7 +476,7 @@ button#modal-buy-ticket:hover {
 }
 .contact-form .send:hover {
   background-color: #ccc;
-  color: rgb(226, 106, 106);
+  color: black;
   cursor: pointer;
 }
 .img-background {
