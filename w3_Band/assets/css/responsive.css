@@ -1,0 +1,96 @@
+@media (min-width: 1024px) {
+}
+
+@media (max-width: 1023px) {
+  .buy-ticket-match {
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+  #footer .social-list {
+    font-size: 40px;
+  }
+  #footer .copyright {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 740px) {
+  .s-col-1 {
+    width: 100%;
+  }
+  .s-pb-16 {
+    padding-bottom: 16px;
+  }
+  .s-pb-32 {
+    padding-bottom: 32px;
+  }
+  #slider .text-content {
+    font-size: 16px;
+  }
+  #nav {
+    display: block;
+  }
+  #nav li {
+    display: block;
+    border-bottom: 0.3px solid rgba(204, 204, 204, 0.329);
+  }
+
+  #header {
+    overflow: hidden;
+    background-color: rgb(126, 30, 30);
+  }
+  #header .menu-mobile-btn {
+    display: block;
+    margin-right: 64px;
+  }
+  #header .search-btn {
+    display: inline-block;
+  }
+  #header #nav > li:first-child {
+    display: inline-block;
+  }
+  #nav .subnav {
+    position: initial;
+    background-color: #333;
+  }
+  #nav .subnav a {
+    padding: 6px 32px;
+  }
+  #content .member-item {
+    width: 100%;
+  }
+  #content .tiket-match {
+    width: 100%;
+    padding: 16px 8px 0px;
+  }
+  /* .buy-ticket-match {
+    width: 100%;
+    text-align: center;
+    display: block;
+  } */
+  #content .contact-infor {
+    font-size: 16px;
+  }
+  .contact-form .send {
+    width: 100%;
+    display: block;
+  }
+  .search-heading {
+    height: 64px;
+  }
+  .search-container {
+    width: 90%;
+    height: 212px;
+  }
+  .modal-heading {
+    height: 64px;
+  }
+  .modal-container {
+    width: 90%;
+    height: 372px;
+  }
+  .modal-footer {
+    padding: 0px;
+  }
+}
