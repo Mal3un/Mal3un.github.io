@@ -305,10 +305,11 @@ c. tổng quan tới chi tiết
   color: white;
   padding: 10px 12px;
   text-decoration: none;
-  border: 1px solid black;
+  border: none;
 }
 .buy-ticket-match:hover {
-  background-color: rgba(177, 175, 175, 0.5);
+  background-color: #ccc;
+  color: black;
 }
 .match-image:hover {
   opacity: 1;
@@ -336,19 +337,23 @@ c. tổng quan tới chi tiết
   display: none;
 }
 .search-container {
-  width: 80%;
   width: 66.66666%;
-  height: 240px;
-  background-color: #363636;
+  height: 180px;
+  background-color: rgb(230, 230, 230);
   position: relative;
   animation: modalFadeIn ease 0.8s;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
 }
 .modal-container {
   width: 66.66666%;
-  height: 460px;
+  height: 393px;
   background-color: #363636;
   position: relative;
   animation: modalFadeIn ease 0.8s;
+  border-radius: 8px;
+  overflow: hidden;
 }
 .search-close,
 .modal-close {
@@ -362,7 +367,7 @@ c. tổng quan tới chi tiết
 }
 
 .search-heading {
-  height: 86px;
+  height: 66px;
   background-color: #7e1e1e;
   display: flex;
   align-items: center;
@@ -373,7 +378,7 @@ c. tổng quan tới chi tiết
   color: rgb(0, 0, 0);
 }
 .modal-heading {
-  height: 130px;
+  height: 94px;
   background-color: #7e1e1e;
   display: flex;
   align-items: center;
@@ -382,7 +387,8 @@ c. tổng quan tới chi tiết
   font-size: 30px;
 }
 .modal-body {
-  padding: 16px;
+  padding: 16px 16px 0px;
+  color: white;
 }
 .modal label {
   display: block;
@@ -391,9 +397,8 @@ c. tổng quan tới chi tiết
 }
 .search-input {
   width: 100%;
-  border: 1px solid rgb(24, 24, 24);
-  padding: 20px;
-  font-size: 15px;
+  padding: 12px;
+  font-size: 14px;
 }
 .modal-input {
   width: 100%;
@@ -405,20 +410,25 @@ c. tổng quan tới chi tiết
 .search-close:hover,
 .modal-close:hover {
   cursor: pointer;
-  background-color: #ccc;
-  color: rgb(126, 30, 30);
+  color: #363636;
   opacity: 1;
+  font-size: 20px;
 }
 
 .ti-basketball {
   padding-left: 10px;
 }
+#search-buy-ticket i {
+  font-size: 20px;
+  font-weight: bold;
+}
 button#search-buy-ticket {
   width: 100%;
   font-size: 15px;
-  padding: 14px;
+  padding: 8px;
   background-color: #7e1e1e;
   opacity: 1;
+  border: none;
   /* border: 1px solid #363636; */
 }
 button#modal-buy-ticket {
@@ -433,14 +443,18 @@ button#modal-buy-ticket {
 }
 button#search-buy-ticket:hover,
 button#modal-buy-ticket:hover {
-  background-color: #ff5e00ab;
+  opacity: 0.5;
   cursor: pointer;
 }
 .search-footer,
 .modal-footer {
-  padding: 10px;
+  margin: 0 8px;
+  margin-top: 7px;
   text-align: right;
-  color: #fff;
+  color: black;
+}
+.modal-footer .modal-help {
+  margin: 8px 16px;
 }
 .search-footer a,
 .modal-footer a {
@@ -476,7 +490,7 @@ button#modal-buy-ticket:hover {
 }
 .contact-form .send:hover {
   background-color: #ccc;
-  color: black;
+  color: rgb(226, 106, 106);
   cursor: pointer;
 }
 .img-background {

@@ -15,6 +15,7 @@
 </head>
 
 <body>
+    
     <div id="web">
         <div id="header">
             <ul id="nav">
@@ -332,6 +333,15 @@
         searchContainer.addEventListener('click', function (event) {
             event.stopPropagation()
         })
+    </script>
+    <script>
+        const sendBtn = document.querySelector('.send')
+        const payBtn= document.getElementById('modal-buy-ticket')
+        function requestComplete(){
+            alert('We take your request , Thanks!')
+        }
+        sendBtn.addEventListener('click',requestComplete)
+        payBtn.addEventListener('click',requestComplete)
     </script>
 </body>
 
