@@ -171,6 +171,7 @@
   background-color: var(--header-color);
   color: white;
   font-weight: bold;
+  text-decoration: none;
 }
 .sanpham-buy-button-btn:hover {
   background-color: #0e88da;
