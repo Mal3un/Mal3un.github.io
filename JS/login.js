@@ -4,6 +4,7 @@ var password = document.querySelector('#password');
 var rePassword = document.querySelector('#re-password');
 var form = document.querySelector('form')
 var adsImage = document.querySelector('.ads-img')
+var nextLogin = document.querySelector('.login-button-link')
 
 function showError(input, message) {
     let parent = input.parentElement
@@ -73,8 +74,7 @@ form.addEventListener('submit', function (e) {
     let isMatchError = checkMatchPasswordError(password, rePassword);
 
     if (isEmptyError || isEmailError || isUsernameLengthError || isPasswordLengthError || isMatchError) {
-        // do nothing
     } else {
-
+        nextLogin.onclick(window.location.href = '../tab2/qltk.html');
     }
 })

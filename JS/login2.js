@@ -1,6 +1,8 @@
 var username = document.querySelector('#username');
 var password = document.querySelector('#password');
 var form = document.querySelector('form')
+var nextLogin = document.querySelector('.login-button-link')
+
 
 function showError(input, message) {
     let parent = input.parentElement
@@ -64,11 +66,10 @@ form.addEventListener('submit', function (e) {
     e.preventDefault();
 
     let isEmptyError = checkEmptyError([username, password]);
-    // let isUsernameLengthError = checkLengthError(username, 4, 20);
-    // let isPasswordLengthError = checkLengthError(password, 4, 15);
+    let isUsernameLengthError = checkLengthError(username, 4, 20);
+    let isPasswordLengthError = checkLengthError(password, 4, 15);
     if (isEmptyError || isUsernameLengthError || isPasswordLengthError) {
-        // do nothing
     } else {
-
+        nextLogin.onclick(window.location.href = '../tab2/qltk.html');
     }
 })

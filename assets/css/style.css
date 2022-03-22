@@ -311,7 +311,7 @@ html {
 }
 .header__login-form {
   position: absolute;
-  height: 320px;
+  height: 220px;
   width: 360px;
   background-color: rgb(255, 255, 255);
   top: calc(var(--header-height) + 5px);
@@ -383,6 +383,7 @@ html {
 .header__login-form-btn {
   margin-top: 8px;
   width: 280px;
+  text-decoration: none;
 }
 .header__login-form-more {
   display: flex;
