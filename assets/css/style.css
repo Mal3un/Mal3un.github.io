@@ -311,8 +311,8 @@ html {
 }
 .header__login-form {
   position: absolute;
-  height: 220px;
   width: 360px;
+  height: 220px;
   background-color: rgb(255, 255, 255);
   top: calc(var(--header-height) + 5px);
   border-radius: 4px;
