@@ -98,7 +98,7 @@
     justify-content: space-between;
   }
   .header__cart {
-    width: 75px;
+    flex: 1;
     justify-content: center;
     /* float: right; */
     padding: 0;
@@ -106,7 +106,10 @@
     padding-left: 10px;
   }
   .header__about {
-    width: 75px;
+    flex: 1;
+  }
+  .header__login {
+    flex: 1;
   }
   .header__cart-list--product {
     position: fixed;
@@ -120,6 +123,7 @@
   }
 
   .header__logo {
+    flex: 1;
   }
   .logo-list__img {
     width: 170px;
@@ -154,6 +158,9 @@
   }
   .product-banner1 {
     padding: 0;
+  }
+  .header__search-mobile {
+    flex: 1;
   }
 }
 .open {
