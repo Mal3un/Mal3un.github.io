@@ -161,6 +161,7 @@
   }
   .header__search-mobile {
     flex: 1;
+    margin: 0;
   }
 }
 .open {
