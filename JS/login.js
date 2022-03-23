@@ -75,6 +75,7 @@ form.addEventListener('submit', function (e) {
 
     if (isEmptyError || isEmailError || isUsernameLengthError || isPasswordLengthError || isMatchError) {
     } else {
-        nextLogin.onclick(window.location.href = '../tab2/qltk.html');
+        alert('Đăng ký thành công');
+        nextLogin.onclick(window.location.href = '../tab2/login2.html');
     }
 })

@@ -16,9 +16,9 @@
 .header__search-mobile-list {
   min-width: 80px;
 }
-.container {
+.container2 {
   width: 100%;
-  height: 100vh;
+  height: 90vh;
   overflow: hidden;
   /* background: linear-gradient(120deg, #3ca7ee, #9b408f); */
   display: flex;

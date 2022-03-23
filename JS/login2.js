@@ -69,7 +69,10 @@ form.addEventListener('submit', function (e) {
     let isUsernameLengthError = checkLengthError(username, 4, 20);
     let isPasswordLengthError = checkLengthError(password, 4, 15);
     if (isEmptyError || isUsernameLengthError || isPasswordLengthError) {
-    } else {
+    } else if (username.value == 'LMD482' && password.value == '123456') {
         nextLogin.onclick(window.location.href = '../tab2/qltk.html');
+    } else {
+        alert('Tài khoản hoặc mật khẩu không chính xác !')
     }
+
 })
