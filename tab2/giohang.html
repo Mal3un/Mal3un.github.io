@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="/assets/css/grid.css">
     <link rel="stylesheet" href="/assets/css/base.css">
     <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="/assets/css/login.css">
+    <link rel="stylesheet" href="/assets/css/giohang.css">
     <link rel="stylesheet" href="/assets/css/responsive.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
@@ -25,7 +25,7 @@
         <div class="header">
             <div class="grid wide">
                 <div class="header__navbar">
-                    <div class="header__menu ">
+                    <div class="header__menu hide-on-mobile ">
                         <div class="header__menu-list">
                             <span class="menu-list__icon">
                                 <i class="fa-solid fa-bars"></i>
@@ -71,7 +71,7 @@
                                                             Chuột Gaming
                                                         </li>
                                                         <li class="menu__product-type-item">
-                                                            Headphone
+                                                            Headphone 
                                                         </li>
                                                         <li class="menu__product-type-item">
                                                             Bàn phím Gaming
@@ -79,7 +79,7 @@
                                                         <li class="menu__product-type-item">
                                                             Tay cầm chơi game
                                                         </li>
-
+                                                        
                                                     </ul>
                                                 </div>
                                             </div>
@@ -287,7 +287,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="header__login hide-on-mobile ">
+                        <div class="header__login hide-on-mobile ">
                             <div class="header__login-list">
                                 <span class="header__login-list--icon">
                                     <i class="fa-solid fa-user"></i>
@@ -296,40 +296,42 @@
                                     Tài Khoản
                                 </span>
                                 <div class="header__login-form">
-                                    <div class="header__login-form-heading">
-                                        <span class="form-heading-title">ĐĂNG NHẬP TÀI KHOẢN</span>
-                                        <span class="form-heading-description">Nhập email và mật khẩu của bạn</span>
-                                    </div>
-                                    <div class="header__login-form-body">
-                                        <input type="text" class="header__login-form-email" placeholder="Email">
-                                        <input type="password" class="header__login-form-password"
-                                            placeholder="Mật Khẩu">
-                                        <div class="header__login-form-law">
-                                            <span class="header__login-form-law-text">
-                                                Google and
-                                                <a href="" class="header__login-form-law-link">Privacy Policy</a>
-                                                and
-                                                <a href="" class="header__login-form-law-link">Terms of Service</a>
-                                                apply.
-                                            </span>
+                                    <form action="">
+                                        <div class="header__login-form-heading">
+                                            <span class="form-heading-title">ĐĂNG NHẬP</span>
+                                            <div class="header__login-form-law">
+                                                <span class="header__login-form-law-text">
+                                                    Google and
+                                                    <a href="" class="header__login-form-law-link">Privacy Policy</a>
+                                                    and
+                                                    <a href="" class="header__login-form-law-link">Terms of Service</a>
+                                                    apply.
+                                                </span>
+                                            </div>
                                         </div>
-                                        <div class="header__login-form-btn btn btn--primary">Đăng Nhập</div>
-                                        <div class="header__login-form-more">
-                                            <span class="header__login-form-register">
-                                                Khách hàng mới ?
-                                                <a href="" class="header__login-form-register-link">Đăng ký ngay</a>
-                                            </span>
-                                            <span class="header__login-form-forgot-password">
-                                                Quên mật khẩu ?
-                                                <a href="" class="header__login-form-forgot-password-link">Khôi phục mật
-                                                    khẩu</a>
-                                            </span>
+                                        <div class="header__login-form-body">
+                                            <!-- <input type="text" class="header__login-form-email" placeholder="Username">
+                                            <input type="password" class="header__login-form-password"
+                                                placeholder="Password"> -->
+                                            
+                                            <a href="../tab2/login2.html" class="header__login-form-btn btn btn--primary">Đăng Nhập</a>
+                                            <div class="header__login-form-more">
+                                                <span class="header__login-form-register">
+                                                    Khách hàng mới ?
+                                                    <a href="./tab2/login.html" class="header__login-form-register-link">Đăng ký ngay</a>
+                                                </span>
+                                                <span class="header__login-form-forgot-password">
+                                                    Quên mật khẩu ?
+                                                    <a href="" class="header__login-form-forgot-password-link">Khôi phục mật
+                                                        khẩu</a>
+                                                </span>
+                                            </div>
+                                            
                                         </div>
-
-                                    </div>
+                                    </form>
                                 </div>
                             </div>
-                        </div> -->
+                        </div>
                         <div class="header__cart">
                             <div class="header__cart-list">
                                 <span class="header__cart-list--icon">
@@ -438,65 +440,126 @@
                 </div>
 
             </div>
-            <div class="container2">
-                <form action="">
-                    <div class="login">
-                        <h1 class="login-title">Register Form</h1>
-                        <div class="login-body ">
-                            <input id="username" type="text" placeholder="username" class="login-id">
-                            <small></small>
-                            <span></span>
-                        </div>
-                        <div class="login-body ">
-                            <input id="email" type="email" placeholder="Email" class="login-id">
-                            <small></small>
-                            <span></span>
-                        </div>
-                        <div class="login-body ">
-                            <input id="password" type="password" placeholder="password" class="login-id">
-                            <small></small>
-                            <span></span>
-                        </div>
-                        <div class="login-body ">
-                            <input id="re-password" type="password" placeholder="confỉrm password" class="login-id">
-                            <small></small>
-                            <span></span>
-                        </div>                    
-                        
-                        <a href="#" class="login-button-link" >
-                            <button  type="submit" class="login-button">                        
-                                Register
-                            </button>                   
-                        </a>
-                       
-                        <div class="login-link">
-                            You are member? <a href="/tab2/login2.html">Sign in</a>
+        </div>
+        <div class="content">
+            <div class="grid wide">
+                <div class="html-cart-header row">
+                    <div class="col l-12 m-12 c-12 ">
+                        <div class="html-cart-title">
+                            <h1 class="html-cart-text">GIỎ HÀNG</h1>
+                            <i class="fa-solid fa-cart-shopping"></i>
                         </div>
                     </div>
-                </form>
-                <a class="ads hide-on-mobile-tablet">
-                    
-                    <!-- <button class="back-ads">    
-                        <i class="fa-solid fa-angle-left"></i>             
-                    </button> -->
-                    
-                        <img src="../assets/img/quangcao-login-2.png" alt=""
-                        class="ads-img">
-                        <img src="../assets/img/quangcao-login-1.png" alt=""
-                        class="ads-img">
-                    
-                
-                                  
-                    <!-- <button class="next-ads">
-                        <i class="fa-solid fa-angle-right"></i>             
-                    </button> -->
-                </a>
+                </div>
+                <div class="html-cart-container row no-gutters">
+                    <div class="html-cart-body-title">
+                        <div class="col l-2 m-2 c-2 title-main">
+                            <div class="img-product">
+                                <h1 class="img-product-title">Sản Phẩm</h1>  
+                            </div>
+                           
+                        </div>
+                        <div class="col l-5 m-5 c-5 title-main">
+                            <div class="name-product ">
+                                <h1 class="name-product-title">Tên sản phẩm</h1>  
+                            </div>
+                            
+                        </div>
+                        <div class="col l-2 m-2 c-1 title-main">
+                            <div class="sl-product ">
+                                <h1 class="sl-product-title">SL</h1>  
+                            </div>                          
+                        </div>
+                        <div class="col l-2 m-2 c-3 title-main">
+                            <div class="price-product ">
+                                <h1 class="price-product-title">Giá tiền</h1>  
+                            </div>                          
+                        </div>
+                        <div class="col l-1 m-1 c-1 title-main">
+                            <div class="clear-product ">
+                                <h1 class="clear-product-title">Xóa</h1>  
+                            </div>                          
+                        </div>                       
+                    </div>
+                    <div class="html-cart-body-product">
+                        <div class="product-1 ">
+                            <div class="col l-2 m-2 c-2 product1-main">
+                                <div class="img-product1">
+                                     <img src="https://product.hstatic.net/1000233206/product/acer-aspire-7-a715-42g-r05g_dca95f82c4694475b01ac31c4a64fdec_master.png" alt="" class="img-product1">
+                                </div>
+                               
+                            </div>
+                            <div class="col l-5 m-5 c-5 product1-main">
+                                <div class="name-product1">
+                                    Laptop Acer Aspire 7 A715-42G-R05G (R5-5500U | 8GB | 512GB | GeForce® GTX 1650 4GB | 15.6' FHD 144Hz | Win 11)
+                                </div>
+                                
+                            </div>
+                            <div class="col l-2 m-2 c-1 product1-main">
+                                <div class="sl-product1">
+                                    1
+                                </div>                          
+                            </div>
+                            <div class="col l-2 m-2 c-3 product1-main">
+                                <div class="price-product1">
+                                    19,490,000đ
+                                    
+                                </div>                          
+                            </div>
+                            <div class="col l-1 m-1 c-1 product1-main">
+                                <div class="clear-product1">
+                                    X
+                                </div>                          
+                            </div>                            
+                        </div>   
+                    </div>
+                    <div class="html-cart-body-product">
+                        <div class="product-1 ">
+                            <div class="col l-2 m-2 c-2 product1-main">
+                                <div class="img-product1">
+                                     <img src="https://product.hstatic.net/1000233206/product/acer-aspire-7-a715-42g-r05g_dca95f82c4694475b01ac31c4a64fdec_master.png" alt="" class="img-product1">
+                                </div>
+                               
+                            </div>
+                            <div class="col l-5 m-5 c-5 product1-main">
+                                <div class="name-product1">
+                                    Laptop Acer Aspire 7 A715-42G-R05G (R5-5500U | 8GB | 512GB | GeForce® GTX 1650 4GB | 15.6' FHD 144Hz | Win 11)
+                                </div>
+                                
+                            </div>
+                            <div class="col l-2 m-2 c-1 product1-main">
+                                <div class="sl-product1">
+                                    1
+                                </div>                          
+                            </div>
+                            <div class="col l-2 m-2 c-3 product1-main">
+                                <div class="price-product1">
+                                    19,490,000đ
+                                    
+                                </div>                          
+                            </div>
+                            <div class="col l-1 m-1 c-1 product1-main">
+                                <div class="clear-product1">
+                                    X
+                                </div>                          
+                            </div>                            
+                        </div>   
+                    </div>                 
+                    <div class="html-cart-bill ">                 
+                        <div class="col l-9 m-9 c-6 bill-main">
+                            <h1 class="bill-title">Tổng cộng</h1>
+                        </div>
+                        <div class="col l-3 m-3 c-6 bill-main">                           
+                            <h1 class="bill-price-all">38,980,000đ</h1>                           
+                        </div>
+    
+                    </div>
+                    <div class="html-cart-payment">
+                        <a href="../index.html" class="html-cart-payment-back btn ">Mua sắm tiếp</a>
+                        <a class="html-cart-payment-go btn btn--primary">Thanh toán ngay</a>            
+                    </div>
+                </div>
             </div>
-
         </div>
-
-    </div>
 </body>
-<script src="../JS/login.js">  </script>
-
-</html>
+</html> 
