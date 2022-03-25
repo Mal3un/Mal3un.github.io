@@ -106,7 +106,9 @@
     padding-left: 10px;
   }
   .header__about {
-    width: 75px;
+    width: 100%;
+    margin: 0;
+    display: flex;
   }
   .header__cart-list--product {
     position: fixed;
@@ -154,6 +156,12 @@
   }
   .product-banner1 {
     padding: 0;
+  }
+  .header__search-mobile {
+    flex: 1;
+  }
+  .header__cart {
+    flex: 1;
   }
 }
 .open {
