@@ -162,3 +162,6 @@
 .close {
   display: none;
 }
+.openflex {
+  display: flex;
+}
