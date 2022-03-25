@@ -213,3 +213,7 @@
 .header__cart {
   display: none;
 }
+.header__search-mobile {
+  width: 100%;
+  flex: 1;
+}
