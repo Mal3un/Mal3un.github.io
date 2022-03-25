@@ -200,3 +200,16 @@
 .html-cart-payment-back:hover {
   background-color: rgb(255, 255, 255);
 }
+.header__about {
+  width: 100%;
+  display: flex;
+}
+.header__login {
+  flex: 1;
+}
+.header__adress {
+  flex: 1;
+}
+.header__cart {
+  display: none;
+}
