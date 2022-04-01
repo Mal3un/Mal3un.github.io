@@ -1,7 +1,11 @@
+.container1 {
+  background-color:var(--background-content);
+}
+
 .content {
   height: 100vh;
   width: 100%;
-  background-color: #13222a;
+  background-color: var(--background-main);
 }
 .html-cart {
   /* background-color: #181a1b; */
@@ -11,7 +15,7 @@
 }
 .html-cart-title {
   margin-top: 40px;
-  color: rgb(187, 187, 187);
+  color: var(--header-color);
 
   display: flex;
   align-items: center;
@@ -34,14 +38,14 @@
   width: 100%;
   text-align: center;
   /* border: 2px solid rgb(255, 255, 255); */
-  background-color: #181a1b;
+  background-color: var(--background-content);
 }
 .title-main {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  border: 1px solid rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0)
 }
 .img-product {
   color: var(--header-color);
@@ -95,18 +99,19 @@
   flex-direction: row;
   width: 100%;
   text-align: center;
-  border: 1px solid rgb(187, 187, 187);
+  border: 1px solid rgb(0, 0, 0);
   justify-content: center;
   align-items: center;
   border-top: none;
-  background-color: #181a1b;
+  background-color: var(--background-content);
+  
 }
 .html-cart-body-no-product {
   width: 100%;
   /* display: flex; */
   flex-direction: column;
   justify-content: center;
-  background-color: #181a1b;
+  background-color: var(--background-content);
   align-items: center;
   padding: 20px;
   display: none;
@@ -120,7 +125,7 @@
   width: 100%;
   text-align: center;
   /* border: 2px solid rgb(255, 255, 255); */
-  background-color: #181a1b;
+  background-color: var(--background-content);
 }
 .product-1 {
   width: 100%;
@@ -131,26 +136,26 @@
   justify-content: center;
   align-items: center;
 
-  border: solid 1px #ccc;
+  border: solid 1px rgb(0, 0, 0);
 }
 .img-product1 {
   width: 86%;
 }
 .name-product1 {
   font-size: 1.5rem;
-  color: rgb(219, 219, 219);
+  color: rgb(0, 0, 0);
 }
 .sl-product1 {
   font-size: 1.6rem;
-  color: rgb(219, 219, 219);
+  color: rgb(0, 0, 0);
 }
 .price-product1 {
   font-size: 1.6rem;
-  color: rgb(219, 219, 219);
+  color: rgb(0, 0, 0)
 }
 .clear-product1 {
   font-size: 1.6rem;
-  color: rgb(219, 219, 219);
+  color: rgb(95, 146, 255);
   padding: 10px;
   cursor: pointer;
 }
@@ -163,16 +168,16 @@
   margin-top: 30px;
   display: flex;
   height: 60px;
-  background-color: #181a1b;
+  background-color: var(--background-content);
 }
 .bill-main {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid rgb(187, 187, 187);
+  border: 1px solid rgb(2, 2, 2);
 }
 .bill-title {
-  color: rgb(219, 219, 219);
+  color: rgb(255, 59, 59);
   font-size: 1.6rem;
   padding: 22px;
 }
@@ -194,11 +199,11 @@
 }
 .html-cart-payment-back {
   padding: 16px 40px;
-  background-color: rgb(216, 216, 216);
+  background-color: rgb(41, 133, 255);
   margin: 10px;
 }
 .html-cart-payment-back:hover {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(91, 162, 255);
 }
 .header__about {
   width: 100%;

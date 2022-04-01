@@ -14,6 +14,6 @@ taikhoan.onclick = function () {
 
 
 logout.onclick = function () {
-    localStorage.removeItem('token');
+    // localStorage.removeItem('token');
     location.href = '../tab2/login2.html';
 }

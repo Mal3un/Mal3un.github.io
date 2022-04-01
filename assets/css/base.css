@@ -1,10 +1,13 @@
 :root {
   --white-color: #fff;
   --black-color: #000;
-  --text-color: #252a2b;
+  --text-color: #0f0f0f;
   --header-color: #026db5;
   --header-height: 72px;
   --menu__product-height: 576px;
+  --background-main : #edeef2;
+  --background-content : #ffffff;
+
 }
 @keyframes opacity {
   from {

@@ -1,6 +1,7 @@
 .qltk {
-  background-color: #13222a;
-  height: 100vh;
+  background-color: var(--background-main);
+  /* height: 100vh; */
+  padding-bottom: 60px;
 }
 .qltk-title {
   display: flex;
@@ -8,25 +9,25 @@
   align-items: center;
   padding: 40px 0;
   border-bottom: 1px solid var(--header-color);
-  color: rgb(218, 218, 218);
+  color: var(--header-color);
   margin-bottom: 40px;
 }
 .qltk-body {
   display: flex;
   flex-direction: column;
-  background-color: #181a1b;
+  background-color: var(--background-content);
   padding: 20px;
   /* margin-left: 60px; */
 }
 .qltk-myaccount-title {
   text-align: center;
   margin: 12px 0;
-  color: antiquewhite;
+  color: var(--text-color);
 }
 .qltk-myaccount {
   position: relative;
   text-decoration: none;
-  color: rgb(218, 218, 218);
+  color: var(--text-color);
   font-size: 1.3rem;
   margin: 5px 0;
   cursor: pointer;
@@ -40,41 +41,41 @@
 }
 .qltk-info1 {
   display: none;
-  /* border-left: solid 1px rgb(218, 218, 218); */
+  /* border-left: solid 1px var(--text-color); */
 }
 .qltk-info1,
 .qltk-info2 {
   /* margin-left: 40px; */
-  background-color: #181a1b;
+  background-color: var(--background-content);
   padding: 20px;
   width: 100%;
 }
 .qltk-info1-title,
 .qltk-info2-title {
   margin: 12px 0;
-  color: antiquewhite;
+  color: var(--text-color);
   padding-bottom: 20px;
-  border-bottom: 1px solid rgb(218, 218, 218);
+  border-bottom: 1px solid var(--text-color);
 }
 .qltk-info1-name {
   display: flex;
   font-size: 1.3rem;
   min-width: 30px;
-  color: rgb(218, 218, 218);
+  color: var(--text-color);
   line-height: 1.4;
 }
 .qltk-info1-email {
   display: flex;
   font-size: 1.3rem;
   min-width: 30px;
-  color: rgb(218, 218, 218);
+  color: var(--text-color);
   line-height: 1.4;
 }
 .qltk-info1-address {
   display: flex;
   font-size: 1.3rem;
   min-width: 30px;
-  color: rgb(218, 218, 218);
+  color: var(--text-color);
   line-height: 1.4;
 }
 .qltk-info1-password {
@@ -82,7 +83,7 @@
   margin-top: 20px;
   font-size: 1.4rem;
   min-width: 30px;
-  color: rgb(218, 218, 218);
+  color: var(--text-color);
   line-height: 1.4;
   cursor: pointer;
   color: #e74c3c;
@@ -96,8 +97,9 @@
   line-height: 1.4;
   font-size: 1.4rem;
   margin: 10px;
-  color: antiquewhite;
+  color: var(--text-color);
 }
-.qltk-info2 {
+.qltk-info2{
   display: none;
 }
+
