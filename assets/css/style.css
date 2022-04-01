@@ -942,6 +942,7 @@ html {
 .footer2-title2{
   padding: 14px;
   border-bottom: 1px solid #e91919;
+  min-height: 61px;
   /* text-align: center; */
 }
 .footer2-body{
